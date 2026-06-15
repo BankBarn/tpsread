@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "tpsread"
+version = "0.1.0"
+description = "Read .TPS (Clarion TopSpeed) files with Python"
+readme = "README.md"
+license = {text = "GPL-3.0"}
+requires-python = ">=3.6"
+dependencies = [
+    "construct==2.5.3",
+    "six>=1.8",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["tpsread*"]
