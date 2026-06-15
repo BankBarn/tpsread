@@ -1,2 +1,4 @@
-# tpsread
-Fork, of galler-alexander/tpsread
+tpsread
+=======
+
+Read .TPS (Clarion TopSpeed) file with Python
